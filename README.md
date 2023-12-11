@@ -66,7 +66,7 @@ services:
     restart: always
 
   neo4j-init:
-    image: joshuasundance/langchain-neo4j-advanced-rag-docker:1.0.1
+    image: joshuasundance/langchain-neo4j-advanced-rag-docker:1.0.2
     container_name: neo4j-init
     environment:
       - "OPENAI_API_KEY=${OPENAI_API_KEY:?}"
@@ -84,7 +84,7 @@ services:
     command: ["/bin/bash", "/home/appuser/neo4j-advanced-rag/ingest.sh"]
 
   langchain-neo4j-advanced-rag-docker:
-    image: joshuasundance/langchain-neo4j-advanced-rag-docker:1.0.1
+    image: joshuasundance/langchain-neo4j-advanced-rag-docker:1.0.2
     container_name: langchain-neo4j-advanced-rag-docker
     environment:
       - "OPENAI_API_KEY=${OPENAI_API_KEY:?}"
@@ -126,7 +126,7 @@ docker run -d --name langchain-neo4j-advanced-rag-docker \
   -e NEO4J_USERNAME=... \
   -e NEO4J_PASSWORD=... \
   -p 8000:8000 \
-  joshuasundance/langchain-neo4j-advanced-rag-docker:1.0.1
+  joshuasundance/langchain-neo4j-advanced-rag-docker:1.0.2
 ```
 
 ## Usage
