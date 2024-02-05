@@ -1,10 +1,10 @@
-langchain==0.1.4
+langchain==0.1.5
 langchain-cli==0.0.21
-langchain-core==0.1.16
+langchain-core==0.1.18
 langchainhub==0.1.14
 langserve==0.0.41
-langsmith==0.0.84
-neo4j==5.16.0
-openai==1.10.0
+langsmith==0.0.86
+neo4j==5.17.0
+openai==1.11.1
 pydantic<2
 tiktoken==0.5.2
