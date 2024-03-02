@@ -1,6 +1,6 @@
 langchain==0.1.9
 langchain-cli==0.0.21
-langchain-core==0.1.26
+langchain-core
 langchain-text-splitters
 langchainhub==0.1.14
 langserve==0.0.42
