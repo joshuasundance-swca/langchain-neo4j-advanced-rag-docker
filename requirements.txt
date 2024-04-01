@@ -4,8 +4,8 @@ langchain-core
 langchain-text-splitters
 langchainhub==0.1.15
 langserve==0.0.51
-langsmith==0.1.31
+langsmith==0.1.38
 neo4j==5.18.0
-openai==1.14.2
+openai==1.14.3
 pydantic<2
 tiktoken==0.6.0
