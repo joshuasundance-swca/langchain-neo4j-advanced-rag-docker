@@ -3,9 +3,9 @@ langchain-cli==0.0.21
 langchain-core
 langchain-text-splitters
 langchainhub==0.1.15
-langserve==0.0.51
-langsmith==0.1.47
-neo4j==5.19.0
-openai==1.17.1
+langserve==0.1.1
+langsmith==0.1.51
+neo4j==5.20.0
+openai==1.23.6
 pydantic<2
 tiktoken==0.6.0
